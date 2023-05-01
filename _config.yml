@@ -1,4 +1,4 @@
 plugins:
   - jekyll-paginate
 image:
-  background: asset.png
+background-image: url(’{{ site.baseurl }}/assets/css/asset.png’);
