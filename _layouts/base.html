@@ -5,6 +5,16 @@
     background-color: #000;
   }
 </style>
+    <html>
+<head>
+<style>
+body {
+  background-image: url('{{ site.baseurl }}/assets/images/bground.jpg');
+}
+</style>
+</head>
+
+</html>
 <head>
     {% include meta.html %}
     <title>Blog | {{ site.author }}</title>
@@ -15,4 +25,5 @@
     {{ content }}
     {% include footer.html %}
 </body>
+</html>
 </html>
